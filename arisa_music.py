@@ -23,7 +23,7 @@ class Music:
             player.start()
 
     async def on_message_delete(self, message):
-        await self.send_message(message.channel, 'Message Deleted')
+        await self.send('Message Deleted')
 
     @commands.command(pass_context=True)
     async def join(ctx):
