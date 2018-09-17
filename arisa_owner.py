@@ -16,7 +16,7 @@ class OwnerCog:
         except Exception as e:
             await ctx.send(f'**`ERROR:`** {type(e).__name__} - {e}')
         else:
-            await ctx.send('**`SUCCESS``**')
+            await ctx.send('**`SUCCESS`**')
 
     @commands.command(name='unload', hidden=True)
     @commands.is_owner()
@@ -29,7 +29,7 @@ class OwnerCog:
         except Exception as e:
             await ctx.send(f'**`ERROR:`** {type(e).__name__} - {e}')
         else:
-            await ctx.send('**`SUCCESS**')
+            await ctx.send('**`SUCCESS`**')
 
     @commands.command(name='die', hidden=True)
     async def cog_die(self, ctx):
